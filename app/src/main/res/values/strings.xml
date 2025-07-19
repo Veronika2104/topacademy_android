@@ -1,3 +1,66 @@
 <resources>
     <string name="app_name">TopAcademy_android</string>
+    <string name="Text">Задание на занятие </string>
+    <string name="Begin">Начать </string>
+    <string name="calculator">Калькулятор </string>
+    <string name="list">Список </string>
+    <string name="weather">Погода </string>
+    <string name="Back2">Назад </string>
+    <string name="Back1">Назад </string>
+    <string name="Back3">Назад </string>
+    <string name="textTen">10</string>
+    <string name="textAddition">5+5</string>
+
+
+
+    <string name="ac">AC</string>
+    <string name="backspace">⌫</string>
+    <string name="percent">%</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="minus">−</string>
+    <string name="plus">+</string>
+    <string name="equals">=</string>
+    <string name="dot">.</string>
+
+
+    <string name="zero">0</string>
+    <string name="zero3">000</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+
+
+    <string name="left_bracket">(</string>
+    <string name="right_bracket">)</string>
+
+
+    <string name="power">xʸ</string>
+    <string name="sqrt">√</string>
+    <string name="log2">log₂</string>
+    <string name="ln">ln</string>
+    <string name="log">log</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="pi">π</string>
+    <string name="e">e</string>
+
+
+
+
+    <string name="forgot">Forgot?</string>
+    <string name="log_in">Log In</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="don_t_have_account_create_now">Don’t have account? Create now</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="find_your_house">Find Your House</string>
+    <string name="the_tolet">The Tolet</string>
+    <string name="email">Email</string>
 </resources>
