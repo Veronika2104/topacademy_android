@@ -1,5 +1,5 @@
 package com.example.topacademy_android
-
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -7,9 +7,8 @@ import com.example.topacademy_android.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    companion object{
+    companion object {
         private const val ON_CREATE = "ON_CREATE"
-
     }
 
     private lateinit var binding: ActivityMainBinding
@@ -21,9 +20,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         Log.i(ON_CREATE, "Активити создана!")
         onCreateTime = System.currentTimeMillis()
         Log.i("MainActivity", "onCreate time = $onCreateTime")
+        val button = binding.startButton
+
+        button.setOnClickListener {
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     override fun onStart() {
@@ -60,6 +66,5 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         Log.i("MainActivity", "Активити уничтожена!")
-
     }
 }
