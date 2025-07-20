@@ -38,7 +38,7 @@
             android:gravity="end"
             android:singleLine="true"
             android:ellipsize="start"
-            android:style="@style/Operations_search"
+            style="@style/Operations_search"
             android:text="@string/textAddition" />
 
         <TextView
@@ -48,7 +48,7 @@
             android:gravity="end"
             android:singleLine="true"
             android:ellipsize="start"
-            android:style="@style/Operations_search"
+            style="@style/Operations_search"
             android:text="@string/textTen" />
     </LinearLayout>
 
