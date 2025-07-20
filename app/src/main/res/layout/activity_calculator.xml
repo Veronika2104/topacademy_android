@@ -7,48 +7,48 @@
     android:layout_height="match_parent"
     tools:context=".CalculatorActivity">
 
-    <Button
-        android:id="@+id/buttonBack"
-        android:layout_width="@dimen/_130dp"
-        android:layout_height="@dimen/_48dp"
-        android:text="@string/Back1"
-        android:textColor="@color/weather_button_text"
-        android:backgroundTint="@color/weather_button_bg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/_4dp"
+        app:title="@string/Back1"
+        app:titleTextColor="@color/button_text"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.001" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 
     <LinearLayout
         android:id="@+id/topBlock"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/buttonBack"
-        app:layout_constraintBottom_toTopOf="@id/bottomBlock"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomBlock">
 
         <TextView
             android:id="@+id/operation"
+            style="@style/Operations_search"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="@dimen/_130dp"
+            android:ellipsize="start"
             android:gravity="end"
             android:singleLine="true"
-            android:ellipsize="start"
-            style="@style/Operations_search"
             android:text="@string/textAddition" />
 
         <TextView
             android:id="@+id/result"
+            style="@style/Operations_search"
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+        android:layout_height="@dimen/_130dp"
+            android:ellipsize="start"
             android:gravity="end"
             android:singleLine="true"
-            android:ellipsize="start"
-            style="@style/Operations_search"
             android:text="@string/textTen" />
     </LinearLayout>
 

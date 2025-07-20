@@ -10,15 +10,16 @@
     android:background="@color/weather_background"
     tools:context=".WeatherActivity">
 
-    <Button
-        android:id="@+id/buttonBackWeather"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Back3"
-        android:textColor="@color/weather_button_text"
-        android:backgroundTint="@color/weather_button_bg"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/_4dp"
+        app:title="@string/Back1"
+        app:titleTextColor="@color/button_text"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

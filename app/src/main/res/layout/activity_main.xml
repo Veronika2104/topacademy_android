@@ -11,8 +11,8 @@
 
     <View
         android:id="@+id/topShape"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="@dimen/_0dp"
+        android:layout_height="@dimen/_0dp"
         android:background="@drawable/top_shape"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,7 +21,7 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/loginCard"
-        android:layout_width="0dp"
+        android:layout_width="@dimen/_0dp"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_24dp"
         app:cardBackgroundColor="@color/background_bottom"

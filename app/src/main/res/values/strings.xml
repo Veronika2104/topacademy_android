@@ -65,4 +65,6 @@
     <string name="find_your_house">Find Your House</string>
     <string name="the_tolet">The Tolet</string>
     <string name="email">Email</string>
+    <string name="Brand_model">Марка Модель</string>
+    <string name="Yearandprice">Год и цена</string>
 </resources>
