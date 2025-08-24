@@ -7,7 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import android.widget.Button
+
 
 class ListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -29,7 +29,7 @@ class ListActivity : AppCompatActivity() {
             Car("Lada", "Vesta", 2019, "Доступный автомобиль", 1000000, R.drawable.car_image_3)
         )
 
-        // 3. RecyclerView
+
         val recyclerView = findViewById<RecyclerView>(R.id.recyclerViewCars)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerView.adapter = CarAdapter(cars)

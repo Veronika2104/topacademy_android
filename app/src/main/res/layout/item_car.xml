@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:text="@string/Brand_model"
         android:textStyle="bold"
-        android:textSize="@dimen/_20sp"
+        android:textSize="20dp"
         app:layout_constraintStart_toEndOf="@id/imageViewCar"
         app:layout_constraintTop_toTopOf="@id/imageViewCar"
         app:layout_constraintEnd_toEndOf="parent" />

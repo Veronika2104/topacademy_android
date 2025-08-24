@@ -59,7 +59,7 @@
                 android:layout_marginBottom="@dimen/_16dp"
                 android:text="@string/login"
                 android:textColor="@color/text_main"
-                android:textSize="@dimen/_20sp"
+                android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
