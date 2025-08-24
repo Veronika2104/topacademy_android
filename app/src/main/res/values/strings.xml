@@ -1,3 +1,5 @@
+
+
 <resources>
     <string name="app_name">TopAcademy_android</string>
     <string name="Text">Задание на занятие </string>
@@ -63,4 +65,38 @@
     <string name="find_your_house">Find Your House</string>
     <string name="the_tolet">The Tolet</string>
     <string name="email">Email</string>
+    <string name="Brand_model">Марка Модель</string>
+    <string name="Yearandprice">Год и цена</string>
+
+
+
+
+
+
+    <string name="title_weather">Погода</string>
+    <string name="title_weather_details">Детали прогноза</string>
+    <string name="error_loading">Не удалось загрузить погоду</string>
+    <string name="cd_weather_icon">Иконка погоды</string>
+    <string name="city_country">Гюмри, Армения</string>
+    <string name="temp_format">%1$d° / %2$d°</string>
+    <string name="temp_single_format">%1$d°</string>
+    <string name="wind_format">Ветер, макс: %1$d м/с</string>
+    <string name="date_format">dd.MM.yyyy</string>
+    <string name="weather_clear">Ясно</string>
+    <string name="weather_pcloudy">Переменная облачность</string>
+    <string name="weather_mcloudy">Облачно</string>
+    <string name="weather_cloudy">Пасмурно</string>
+    <string name="weather_rain">Дождь</string>
+    <string name="weather_lightrain">Небольшой дождь</string>
+    <string name="weather_snow">Снег</string>
+    <string name="weather_lightsnow">Небольшой снег</string>
+    <string name="weather_ts">Гроза</string>
+    <string name="weather_unknown">Погода</string>
+
+    <string name="degree">27°</string>
+    <string name="degree2">18°</string>
+    <string name="label_temp_range">Макс / Мин</string>
+    <string name="label_wind">Ветер</string>
+
+
 </resources>

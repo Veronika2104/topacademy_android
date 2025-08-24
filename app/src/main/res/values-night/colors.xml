@@ -37,4 +37,21 @@
     <color name="text_main">#FFFFFF</color>
     <color name="button_bg2">#394863</color>
     <color name="button_text3">#FFFFFF</color>
+
+
+    <color name="colorPrimary">#BB86FC</color>
+    <color name="colorOnPrimary">#000000</color>
+    <color name="colorSurface">#121212</color>
+    <color name="colorOnSurface">#FFFFFF</color>
+
+
+    <color name="tempCold">#FF1565C0</color>
+    <color name="tempCool">#FF1976D2</color>
+    <color name="tempMild">#FFF9A825</color>
+    <color name="tempWarm">#FFEF6C00</color>
+    <color name="tempHot">#FFD84315</color>
+
+
+    <color name="heroStart">#1E3A8A</color>
+    <color name="heroEnd">#0EA5E9</color>
 </resources>
