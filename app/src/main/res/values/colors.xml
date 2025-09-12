@@ -39,4 +39,23 @@
     <color name="button_bg2">#0B132A</color>
     <color name="button_text3">#FFFFFF</color>
 
+
+
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorOnSurface">#000000</color>
+
+    <color name="tempCold">#FFFBE4CF</color>
+    <color name="tempCool">#FFF5D3A6</color>
+    <color name="tempMild">#FFEFB87A</color>
+    <color name="tempWarm">#FFE79A4B</color>
+    <color name="tempHot">#FFD97A27</color>
+
+    <color name="heroStart">#3F51B5</color>
+    <color name="heroEnd">#2196F3</color>
+    <color name="weatherCardDefault">#FFE9A46F</color>
+    <color name="weatherCardText">#1A1A1A</color>
+    <color name="header_text_shadow">#66000000</color>
 </resources>
